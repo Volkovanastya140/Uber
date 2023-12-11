@@ -1,0 +1,249 @@
+@media  (max-width: 1200px)
+  .subheader
+    &__phone
+      font-size: 18px
+  .promo
+    padding-bottom: 186px
+    &__title
+      font-size: 55px
+    &__subtitle
+      font-size: 35px
+  .advantage
+    &__discr
+      width: 280px
+  .mobile
+    &__card
+      width: 300px
+      height: 280px
+
+@media  (max-width: 992px)
+  .header
+    &__nav
+      padding: 0
+    &__link
+      font-size: 13px
+  .subheader
+    &__logo
+      img
+        width: 100%
+    &__official
+      font-size: 12px
+    &__btn
+      margin: 22px 0 0 0
+  .promo
+    &__title
+      font-size: 35px
+    &__subtitle
+      font-size: 26px
+  .advantage
+    &__item
+      flex-direction: column
+    &__icon-bg, &__discr
+      margin: 0
+    &__discr
+      margin-top: 15px
+  .option
+    &__img
+      width: 100%
+  .world
+    background-size: 100%
+  .footer
+    &__app
+      flex-direction: column
+    &__link_size_big
+      gap: 25px
+    &__link_color_gray
+      gap: 15px
+
+@media  (max-width: 767px)
+  .subtitle
+    font-size: 30px
+  .header
+    height: 32px
+    &__nav
+      display: flex
+      flex-direction: column
+      position: fixed
+      top: 0
+      left: -100%
+      width: 50%
+      height: 100vh
+      background-color: rgba(0,0,0,.8)
+      padding: 50px
+      justify-content: center
+      gap: 20px
+      transition: .5s all
+      &_active
+        display: flex
+        flex-direction: column
+        position: fixed
+        top: 0
+        left: 0
+        width: 50%
+        height: 100vh
+        background-color: rgba(0,0,0,.8)
+        padding: 50px
+        justify-content: center
+        gap: 20px
+        transition: .5s all
+        li
+          a
+            font-size: 18px
+
+  .burger
+    display: block
+  .subheader
+    height: 82px
+    top: 32px
+    &__call
+      display: none
+    &__btn
+      display: none
+    &__btn-sm
+      display: block
+      margin: 0 auto
+      width: 150px
+      height: 40px
+    &__phone
+      font-size: 15px
+      text-align: center
+      margin: 6px 0 5px
+  .promo
+      &__subtitle
+        font-size: 23px   
+  .option
+    min-height: 770px 
+  .footer
+    padding: 24px 18px 30px
+    min-height: 285px
+    flex-direction: column
+    &__link_leng
+      margin-top: 9px
+    &__links
+      transform: none
+      position: static
+      &::before
+        display: flex
+        width: 255px
+        height: 6px
+        transform: translateY(0)
+    &__link_size_big
+      flex-direction: row
+      gap: 12px
+      margin-top: 26px
+      a
+        font-size: 14px
+    &__link_color_gray
+      display: flex
+      flex-wrap: wrap
+      column-gap: 50px
+      margin: 0 20px
+    &__social
+      margin-top: 16px
+      order: 2
+      gap: 6px
+    &__app
+      flex-direction: row
+      order: 3
+      margin: 19px 34px 0
+      gap: 6px
+      a
+        img
+          width: 84px
+
+@media  (max-width: 576px)
+  .subheader
+    height: 62px
+    &__official
+      display: none
+    &__logo
+      margin-top: 18px
+    &__btn-sm
+      width: 110px
+      height: 22px
+      font-size: 10px
+  
+
+
+@media  (max-width: 320px)
+  .subtitle
+    font-size: 16px
+  .header
+    &__nav
+      width: 85%
+    &__phone
+      font-size: 12px
+  .subheader
+    &__phone
+      margin: 9px 0 1px
+      font-size: 12px
+  .promo
+    min-height: 400px
+    padding-bottom: 35px
+    &__discr-1, &__discr-2
+      display: none
+    &__title
+      font-size: 30px
+      margin-top: 135px
+    &__subtitle
+      font-size: 20px
+      margin-top: 30px
+    &__btn
+      width: 210px
+      height: 50px
+      margin-top: 72px
+  .advantage
+    &__subtitle
+      margin: 18px 0 24px
+    &__icon-bg
+      width: 100px
+      height: 100px
+  .mobile
+    &__subtitle
+      margin-top: 16px
+    &__descr
+      font-size: 14px
+    &__card
+      width: 290px
+      height: 254px
+    &__name
+      font-size: 18px
+  .option
+    min-height: 393px
+    padding: 28px 0 31px
+    &__subtitle
+      display: none
+    &__descr
+      display: none
+    &__tagline
+      color: #fff
+    &__img
+      margin: 36px 0 23px
+  .requir
+    &__subtitle
+      margin-top: 16px
+  .item-req
+    margin: 0
+    margin-top: 30px
+    &__title
+      font-size: 16px
+    &__list
+      margin-top: 5px
+      li
+        font-size: 14px
+        margin-bottom: 5px
+        padding-left: 31px
+        &::before
+          left: 0
+  .world
+    background-size: cover
+    padding: 26px 0 29px
+    height: 360px
+    &__subtitle
+      margin-top: 16px
+    &__discr
+      font-size: 13px
+    &__link
+      width: 222px
+      font-size: 15px
+  
